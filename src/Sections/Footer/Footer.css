@@ -1,0 +1,58 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    height: 367px;
+    width: 1254px;
+    margin: auto;
+    background: #000;
+    padding-top: 90px;
+
+}
+
+.footer .topsection {
+    width: 100%;
+    /* border: solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000;
+}
+
+.footer .topsection .left {
+    display: flex;
+    background: #000;
+    gap: 12px;
+}
+
+.footer .topsection .right {
+    display: flex;
+    gap: 25px;
+    background: #000;
+}
+
+
+
+.footer .topsection .mid {
+    display: flex;
+    gap: 50px;
+    background: #000;
+}
+
+.footer p {
+    background: #000;
+}
+
+.footer .bottomsection {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background: #000;
+}
+
+.footer .fa-brands  {
+    font-size: 1.5rem;
+    color: var(--css-primary);
+    background: #000;
+}

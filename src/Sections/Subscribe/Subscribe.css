@@ -1,0 +1,40 @@
+.subscribe {
+    display: flex;
+    margin: auto;
+    height: 356px;
+    width: 1245px;
+    /* border: solid; */
+    margin-top: 200px;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    gap: 40px;
+    background: #583E3D;
+    margin-bottom: 200px;
+}
+
+.subscribe h1 {
+    text-align: center;
+    font-size: 3.3rem;
+    background: #583E3D;
+}
+
+.subscribe input {
+    height: 53px;
+    width: 273px;
+    padding-left: 8px;
+    margin-left: 10px;
+    
+}
+
+.subscribe button {
+    height: 59px;
+    width: 116px;
+    background: var(--css-primary);
+    border-radius: 0 12px 12px 0;
+    margin-left: 5px;
+}
+
+.subscribe .inputcontainer {
+    background: #583E3D;
+}

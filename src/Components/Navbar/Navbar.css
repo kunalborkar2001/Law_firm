@@ -12,9 +12,15 @@
     background: #000;
 
 }
-.navlogo p {
-    font-weight: 600;
+
+.navbar .navlogo img {
+    background: #000;
+}
+
+.navbar p {
+    font-weight: 400;
     font-size: 1.25rem;
+    background: #000;
 }
 
 .navmid {
