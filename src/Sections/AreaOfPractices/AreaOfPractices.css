@@ -1,4 +1,3 @@
-
 .areaofpractices {
     margin-top: 30vh;
     /* height: 100vh; */
@@ -11,19 +10,22 @@
     margin-bottom: 50px;
 }
 
-.areaofpractices .grid .business{
+.areaofpractices .grid .business {
     /* display: flex; */
     /* flex-direction: column; */
     /* align-items: center; */
     width: 100%;
     height: 342px;
 }
-
+.areaofpractices img {
+   
+}
 
 .areaofpractices .grid .partnership {
     width: 100%;
     height: 342px;
 }
+
 .areaofpractices .imgcontainer {
     /* border: solid; */
 }
@@ -37,4 +39,15 @@
     overflow: hidden;
     margin-bottom: 30px;
     gap: 30px;
+}
+
+.areaofpractices .under {
+   position: absolute;
+   text-align: center;
+   left: 30%;
+   bottom: 32px;
+   background: none;
+    margin: auto;
+    font-weight: 500;
+    font-size: 1rem;
 }

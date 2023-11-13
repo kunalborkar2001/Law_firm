@@ -49,6 +49,7 @@
     justify-content: center;
     gap: 50px;
     background: #000;
+    font-size: 0.69rem;
 }
 
 .footer .fa-brands  {

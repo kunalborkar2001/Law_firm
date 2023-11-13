@@ -24,11 +24,11 @@ const Faq = () => {
                 <div className='accordion'>
                     <Accordion>
                         <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
+                            expandIcon={<i class="fa-solid fa-plus"></i>}
                             aria-controls="panel1a-content"
-                            id="panel1a-header"
+                            id="panela-header"
                         >
-                            <Typography>Accordion 1</Typography>
+                            <Typography>How much is my case worth?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography>
@@ -37,13 +37,14 @@ const Faq = () => {
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
+                    <br />
                     <Accordion>
                         <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
+                            expandIcon={<i class="fa-solid fa-plus"></i>}
                             aria-controls="panel2a-content"
                             id="panel2a-header"
                         >
-                            <Typography>Accordion 2</Typography>
+                            <Typography>What should I do right after car accidect</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography>
@@ -52,13 +53,14 @@ const Faq = () => {
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
+                    <br />
                     <Accordion>
                         <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
+                            expandIcon={<i class="fa-solid fa-plus"></i>}
                             aria-controls="panel2a-content"
-                            id="panel2a-header"
+                            id="panel3a-header"
                         >
-                            <Typography>Accordion 2</Typography>
+                            <Typography>How much is my case worth?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography>

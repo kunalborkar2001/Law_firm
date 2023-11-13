@@ -1,7 +1,7 @@
 .faq {
     height: 629px;
     width: 1140px;
-    border: solid;
+    /* border: solid; */
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -30,8 +30,34 @@
     margin-top: 20px;
     width: 440px;
     
+    
 }
 
-#panel1a-header {
-    background: #000;
+#panela-header {
+    background: #1D1D1D;
+    
+    
+}
+#panel2a-header {
+    background: #1D1D1D;
+    
+}
+#panel3a-header {
+    background: #1D1D1D;
+    
+}
+
+
+.faq i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+    width: 26px;
+    text-align: center;
+    font-size: .8rem;
+    color: black;
+    background: var(--css-primary);
+    border-radius: 12px;
+
 }
