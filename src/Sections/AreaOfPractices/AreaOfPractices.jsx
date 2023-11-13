@@ -3,7 +3,7 @@ import './AreaOfPractices.css'
 import business from "../../assets/businessLaw.svg"
 import partnership from "../../assets/partnership.svg"
 import realestate from "../../assets/realestate.svg"
-import businesslaw2 from "../../assets/businesslaw2.svg"
+import businesslaws from "../../assets/businesslaws.svg"
 import landlord from "../../assets/landlord.svg"
 import elderabuse from "../../assets/elderabuse.svg"
 
@@ -18,7 +18,7 @@ const AreaOfPractices = () => {
                 </div>
                 <div className='grid'>
                     <img className='smallimg' src={realestate} alt="kunalborkar2001@gmail.com" />
-                    <img className='bigimg' src={businesslaw2} alt="kunalborkar2001@gmail.com" />
+                    <img className='bigimg' src={businesslaws} alt="kunalborkar2001@gmail.com" />
                 </div>
                 <div className='grid'>
                     <img className='bigimg' src={landlord} alt="kunalborkar2001@gmail.com" />
